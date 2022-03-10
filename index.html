@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+	  <script src="script.js"></script>
+
+    <div class="header">
+      <h1 class="title">ROCK PAPER SCISSORS</h1>
+    </div>
+
+    <div class="main">
+      <h1 class="game-title">Choose your weapon</h1>
+      <h2 class="sub-title">First to score 5 points wins the game</h2>
+      <div class="sections">
+
+        <div class="score-box">
+            <div class="sign" id="playerSign">❔</div>
+            <p class="score" id="playerScore">Player: 0</p>
+          </div>
+
+          <div class="score-box">
+            <div class="sign" id="computerSign">❔</div>
+            <p class="score" id="computerScore">Computer: 0</p>
+          </div>
+
+      </div>
+
+      <div class="buttons">
+        <button class="btn-square" id="rockBtn">
+          <div class="sign">✊</div>
+        </button>
+
+        <button class="btn-square" id="paperBtn">
+          <div class="sign">✋</div>
+        </button>
+
+        <button class="btn-square" id="scissorsBtn">
+          <div class="sign">✌</div>
+        </button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Copyright © <script>document.write(new Date().getFullYear())
+    </script> Ayrat Murtazin</p>
+
+  </footer>
+
+
+  </body>
+</html>

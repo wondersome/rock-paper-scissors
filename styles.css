@@ -1,0 +1,11 @@
+*{ margin: 0%; }
+
+.header {
+  background: #111720;
+  color: #fac650;
+  display: flex;
+  justify-content: center;
+  padding: 40px; 0px;
+  font-size: 32px;
+  font-family: 'Press Start 2P';
+}
